@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica Git</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h2>Registro de Práctica</h2>
+    <form id="practice-form">
+      <div class="field">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" required placeholder="Ingresa tu nombre">
+      </div>
+      <div class="field">
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" rows="3" required placeholder="Escribe un mensaje..."></textarea>
+      </div>
+      <button type="submit">Enviar datos</button>
+    </form>
+    <p id="feedback" class="feedback-msg"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
